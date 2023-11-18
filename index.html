@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ประวัติส่วนตัว</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="#"class = "logo">Portfolio<span></span> 
+                <ul class="navlist">
+                    <li><a href="#hero" class="active">หน้าหลัก</a></li>
+                    <li><a href="#About">ประวัติส่วนตัว</a></li>
+                    <li><a href="#imgg">ประสบการณ์ฝึกงาน</a></li>
+                </ul>
+
+        </header>
+        <section class="hero" id ="hero">
+            <div class="main-content">
+                <h4>Hello</h4>
+                <h1>I'm <span class="input"></span></h1>
+                <hr />
+
+
+            </div>
+        </section>
+
+        <section class="About" id="About">
+
+            <div class="slide">
+                <div class="About-img">
+                    <img src="img2/pic1.JPG"> 
+                </div>
+
+                <div class="About-img">
+                    <img src="img2/pic2.JPG"> 
+                </div>
+                <a class="prev" onclick="plussides(-1)">&#10094</a>
+                <a class="next" onclick="plussides(+1)">&#10095</a>
+            </div>
+            <div class="Proflite-text">
+                <h2>ประวัติส่วนตัว</h2>
+                <p>ชื่อ : นายศุภกร คูณธีระบัณฑิต  </p>
+                <p>ชื่อเล่น : กร</p>
+                <p>วันเกิด : 29 กันยายน พ.ศ 2548 </p>
+                <p>อายุ : 18 ปี</p>
+                <p>เชื้อชาติ : ไทย  </p>
+                <p>สัญชาติ : ไทย  </p>
+                <p>ศาสนา : พุทธ               </p>
+                <p>เเผนกการเรียน : เทคโนโลยีสารสนเทศ              </p>
+                <p >ที่อยู่ : บ้านเลขที่ 153 ห.107 ถนน สุโขทัย เขตดุสิต แขวงดุสิต จังหวัด กรุงเทพ รหัสไปรษณีย์ 10300 </p>
+                <H1>ความสามารถ :   </H1>
+                <p>Computer Programming : C, C++, SQL, Java, Python, HTML, CSS, VB</p>
+                <p>Network :  Fiber Optic Splice, Lan connecting,
+                    IPv4&IPv6 Setup, Firewall</p>
+                <p>Graphic Design & Editing</p>
+
+
+            </div>
+
+        </section>
+
+
+        <div class="imgg"id ="imgg">
+            <img src="img2/loxley.jpg"/>
+
+
+
+
+            <div class="Proflite-text">
+                <h2>ประสบการณ์ฝึกงาน</h2>
+                <p>สถานที่ฝึกงาน: ล็อกซเลย์(Loxley)  </p>
+                <p>หน้าที่ : เเผนก IT</p>
+                <p>วันเกิด : 29 กันยายน พ.ศ 2548 </p>
+                <p>- เขียนเว็บ HTML</p>
+                <p>- ต่อสายเเลน LAN</p>
+                <p>- ใช้โปรเเกรม PowerBi</p>
+                <p>หน้าที่ : เเผนกการเงิน  </p>
+                <p>- เขียนคำสั่งสร้างสูตรด้วยโปรเเกรม Excel,googlesheetsเพื่อให้ง่ายต่อการคำนวณ</p>
+
+            </div>
+        </div>
+
+
+        </section>
+        <div class="credit" id="credit" style="margin-left: 65%;">
+
+            <h2>Software & language : <i class='bx bxl-html5' ></i>
+                <i class='bx bxl-css3' ></i>
+                <i class='bx bxl-javascript' ></i>
+                <i class='bx bxl-c-plus-plus'></i>
+                <i class='bx bxl-adobe'></i>
+                <i class='bx bxl-python'></i>
+            </h2>
+        </div>
+
+
+        <script src="script.js"></script>
+        <script src="js/script.js"></script>
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+        var typed = new Typed(".input", {
+            strings: ["Supakorn Kunterabundit",'computer engineering '],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        })
+
+
+
+
+
+        </script>
+
+    </body>
+</html>
