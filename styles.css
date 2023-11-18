@@ -296,11 +296,14 @@ section{
     padding: 2rem 9% 2rem;
     font-size: 0.7rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-end;
     background-color: #7B8189;
 }
 .credit a{
     color: var(--main-color);
+}
 
-
+.credit h2 {
+    display: flex;
+    flex-direction: column;
 }
